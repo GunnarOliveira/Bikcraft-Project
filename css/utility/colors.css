@@ -1,0 +1,77 @@
+:root {
+  /*neutral-colors*/
+  --neutral-color-12: #000000;
+  --neutral-color-11: #111111;
+  --neutral-color-10: #2e2e2e;
+  --neutral-color-09: #404040;
+  --neutral-color-08: #595959;
+  --neutral-color-07: #717171;
+  --neutral-color-06: #9c9c9c;
+  --neutral-color-05: #b3b3b3;
+  --neutral-color-04: #cccccc;
+  --neutral-color-03: #dedede;
+  --neutral-color-02: #ededed;
+  --neutral-color-01: #f7f7f7;
+  --neutral-color-00: #ffffff;
+
+  /*primary-colors*/
+  --primary-color-05: #332200;
+  --primary-color-04: #664400;
+  --primary-color-03: #a66e00;
+  --primary-color-02: #e5a40c;
+  --primary-color-01: #ffbb00;
+}
+.neutral-color-00 {
+  color: var(--neutral-color-00);
+}
+.neutral-color-01 {
+  color: var(--neutral-color-01);
+}
+.neutral-color-02 {
+  color: var(--neutral-color-02);
+}
+.neutral-color-03 {
+  color: var(--neutral-color-03);
+}
+.neutral-color-04 {
+  color: var(--neutral-color-04);
+}
+.neutral-color-05 {
+  color: var(--neutral-color-05);
+}
+.neutral-color-06 {
+  color: var(--neutral-color-06);
+}
+.neutral-color-07 {
+  color: var(--neutral-color-07);
+}
+.neutral-color-08 {
+  color: var(--neutral-color-08);
+}
+.neutral-color-09 {
+  color: var(--neutral-color-09);
+}
+.neutral-color-10 {
+  color: var(--neutral-color-10);
+}
+.neutral-color-11 {
+  color: var(--neutral-color-11);
+}
+.neutral-color-12 {
+  color: var(--neutral-color-12);
+}
+.primary-color-01 {
+  color: var(--primary-color-01);
+}
+.primary-color-02 {
+  color: var(--primary-color-02);
+}
+.primary-color-03 {
+  color: var(--primary-color-03);
+}
+.primary-color-04 {
+  color: var(--primary-color-04);
+}
+.primary-color-05 {
+  color: var(--primary-color-05);
+}
