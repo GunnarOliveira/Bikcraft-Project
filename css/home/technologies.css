@@ -1,0 +1,69 @@
+.technologies-bg {
+  background-color: var(--neutral-color-11);
+  box-shadow: inset 0px 80px var(--neutral-color-00),
+    inset 0px -80px var(--neutral-color-00);
+}
+.technologies {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.technologies-content {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+.technologies-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+.technologies-content > span {
+  display: block;
+  margin-bottom: 20px;
+}
+.technologies-content h2 {
+  margin-bottom: 32px;
+}
+.technologies-content > p {
+  margin-bottom: 20px;
+}
+.technologies-content > a {
+  margin-bottom: 80px;
+}
+.technologies-advantages {
+  display: flex;
+  gap: 40px;
+}
+.advantages img {
+  width: 24px;
+  margin-bottom: 8px;
+}
+.advantages h3 {
+  margin-bottom: 8px;
+  width: max-content;
+}
+@media (max-width: 800px) {
+  .technologies-bg {
+    box-shadow: initial;
+  }
+  .technologies {
+    grid-template-columns: 1fr;
+  }
+  .technologies-content {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .technologies a {
+    margin-bottom: 60px;
+  }
+  .technologies-image {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .technologies-advantages {
+    flex-direction: column;
+  }
+}

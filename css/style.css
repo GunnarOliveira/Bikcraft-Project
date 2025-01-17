@@ -4,9 +4,12 @@
 @import url("./utility/tipography.css");
 /*Header*/
 @import url("./global/header.css");
-/*Introduction*/
+/*Home*/
 @import url("./home/introducao.css");
+@import url("./home/technologies.css");
 /*Components*/
 @import url("./utility/components.css");
 /*colors*/
 @import url("./utility/colors.css");
+/*Bikes list*/
+@import url("./bikes/bikes-list.css");
