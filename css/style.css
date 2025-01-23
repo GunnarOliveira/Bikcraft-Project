@@ -4,6 +4,8 @@
 @import url("./utility/tipography.css");
 /*Header*/
 @import url("./global/header.css");
+/*Footer*/
+@import url("./global/footer.css");
 /*Home*/
 @import url("./home/introducao.css");
 @import url("./home/technologies.css");
