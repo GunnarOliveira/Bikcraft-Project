@@ -7,7 +7,7 @@
 /*Footer*/
 @import url("./global/footer.css");
 /*Home*/
-@import url("./home/introducao.css");
+@import url("./home/intro.css");
 @import url("./home/technologies.css");
 @import url("./home/partners.css");
 @import url("./home/testimony.css");

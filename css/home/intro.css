@@ -1,49 +1,49 @@
-.introducao-bg {
+.intro-bg {
   background-color: var(--neutral-color-12);
   color: var(--neutral-color-00);
   box-shadow: inset 0px -120px 0px var(--neutral-color-00);
 }
-.introducao {
+.intro {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0px 40px;
 }
-.introducao-conteudo {
+.intro-conteudo {
   align-self: end;
   margin-bottom: 200px;
 }
 
-.introducao img {
+.intro img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   border-radius: 4px;
 }
-.introducao h1 {
+.intro h1 {
   margin-bottom: 32px;
 }
-.introducao p {
+.intro p {
   margin-bottom: 20px;
 }
 
 @media (max-width: 800px) {
-  .introducao-bg {
+  .intro-bg {
     background-color: var(--neutral-color-11);
     padding-top: 40px;
     box-shadow: inset 0 -60px var(--neutral-color-00);
   }
-  .introducao h1 {
+  .intro h1 {
     margin-bottom: 16px;
   }
 
-  .introducao {
+  .intro {
     grid-template-columns: 1fr;
     gap: 32px;
   }
-  .introducao-conteudo {
+  .intro-conteudo {
     margin-bottom: 0px;
   }
-  .introducao img {
+  .intro img {
     height: 300px;
     width: 100%;
   }
