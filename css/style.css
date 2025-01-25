@@ -11,11 +11,16 @@
 @import url("./home/technologies.css");
 @import url("./home/partners.css");
 @import url("./home/testimony.css");
+/*terms*/
+@import url("./terms/terms.css");
 /*insurance*/
 @import url("./insurance/insurance.css");
+@import url("./insurance/advantages.css");
+@import url("./insurance/questions.css");
 /*Components*/
 @import url("./utility/components.css");
 /*colors*/
 @import url("./utility/colors.css");
 /*Bikes list*/
 @import url("./bikes/bikes-list.css");
+@import url("./bikes/bikes.css");
