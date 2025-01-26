@@ -42,7 +42,7 @@
 .stores-data {
   display: grid;
   gap: 8px;
-  border-left: 2px solid;
+  border-left: 2px solid var(--neutral-color-02);
   padding-left: 12px;
 }
 .stores-time {
