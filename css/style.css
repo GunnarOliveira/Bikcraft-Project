@@ -21,6 +21,8 @@
 @import url("./utility/components.css");
 /*colors*/
 @import url("./utility/colors.css");
-/*Bikes list*/
+/*Bikes*/
 @import url("./bikes/bikes-list.css");
 @import url("./bikes/bikes.css");
+@import url("./bike/bike.css");
+@import url("./bike/insurances.css");
