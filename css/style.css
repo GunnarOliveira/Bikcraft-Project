@@ -17,8 +17,9 @@
 @import url("./insurance/insurance.css");
 @import url("./insurance/advantages.css");
 @import url("./insurance/questions.css");
-/*Components*/
+/*Components and utilities*/
 @import url("./utility/components.css");
+@import url("./utility/forms.css");
 /*colors*/
 @import url("./utility/colors.css");
 /*Bikes*/
@@ -26,3 +27,6 @@
 @import url("./bikes/bikes.css");
 @import url("./bike/bike.css");
 @import url("./bike/insurances.css");
+/*contact*/
+@import url("./contact/contact.css");
+@import url("./contact/stores.css");
