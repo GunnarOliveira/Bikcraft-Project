@@ -11,8 +11,6 @@
 @import url("./home/technologies.css");
 @import url("./home/partners.css");
 @import url("./home/testimony.css");
-/*terms*/
-@import url("./terms/terms.css");
 /*insurance*/
 @import url("./insurance/insurance.css");
 @import url("./insurance/advantages.css");
@@ -30,3 +28,7 @@
 /*contact*/
 @import url("./contact/contact.css");
 @import url("./contact/stores.css");
+/*Budget*/
+@import url("./budget/budget.css");
+/*terms*/
+@import url("./terms/terms.css");
