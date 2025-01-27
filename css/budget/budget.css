@@ -31,7 +31,8 @@
 }
 .budget-product {
   border-radius: 5px 0px 0px 5px;
-  background: var(--neutral-color-12);
+  background: var(--neutral-color-12) url(../../img/dec/bottom-left.svg)
+    no-repeat bottom 20px left 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-content: start;
@@ -96,7 +97,8 @@
 }
 .budget-data {
   border-radius: 0px 5px 5px 0px;
-  background: var(--neutral-color-00);
+  background: var(--neutral-color-00) url(../../img/dec/bottom-right.svg)
+    no-repeat bottom 20px right 20px;
 }
 
 .budget-content {
@@ -147,6 +149,7 @@
   }
   .budget-product {
     border-radius: 5px 5px 0px 0px;
+    background: var(--neutral-color-12);
   }
 }
 @media (max-width: 400px) {

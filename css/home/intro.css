@@ -1,5 +1,6 @@
 .intro-bg {
-  background-color: var(--neutral-color-12);
+  background: var(--neutral-color-12) url(../../img/dec/bottom-left.svg)
+    no-repeat bottom 160px left 20px;
   color: var(--neutral-color-00);
   box-shadow: inset 0px -120px 0px var(--neutral-color-00);
 }
