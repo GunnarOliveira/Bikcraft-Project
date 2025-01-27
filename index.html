@@ -8,13 +8,19 @@
       name="description"
       content="Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft."
     />
+    <link rel="preload" href="./css/style.css" as="style" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header class="header-bg">
       <div class="header container">
         <a href="./index.html">
-          <img src="./img/bikcraft.svg" alt="bikcraft" />
+          <img
+            src="./img/bikcraft.svg"
+            width="136"
+            height="32"
+            alt="bikcraft"
+          />
         </a>
         <nav aria-label="primaria">
           <ul class="header-menu font-01-m neutral-color-00">
@@ -35,14 +41,20 @@
             Quando iniciamos o Bikcraft queríamos apenas um produto que
             adoraríamos utilizar. Éramos apaixonados por pedalar e também fazer.
           </p>
-          <a href="./bikes.html" class="button">selecione a sua</a>
+          <a href="./bikes.html" class="button">escolha a sua</a>
         </div>
-        <div class="intro-imagem">
+        <picture class="intro-imagem">
+          <source
+            media="(max-width:800px)"
+            srcset="./img/bicicletas/nimbus.jpg"
+          />
           <img
             src="./img/fotos/introducao.jpg"
+            width="1280"
+            height="1600"
             alt="bicicleta elétrica preta"
           />
-        </div>
+        </picture>
       </div>
     </main>
     <article class="bike-list">
@@ -52,21 +64,36 @@
       <ul>
         <li>
           <a href="./bikes/magic.html">
-            <img src="./img/bicicletas/magic-home.jpg" alt="Bicicleta preta" />
+            <img
+              src="./img/bicicletas/magic-home.jpg"
+              width="920"
+              height="1040"
+              alt="Bicicleta preta"
+            />
             <h3 class="font-01-xl neutral-color-11">Magic Might</h3>
             <span class="font-02-m neutral-color-08">R$ 2499</span>
           </a>
         </li>
         <li>
           <a href="./bikes/nimbus.html">
-            <img src="./img/bicicletas/nimbus-home.jpg" alt="Bicicleta preta" />
+            <img
+              src="./img/bicicletas/nimbus-home.jpg"
+              width="920"
+              height="1040"
+              alt="Bicicleta preta"
+            />
             <h3 class="font-01-xl neutral-color-11">Nimbus Stark</h3>
             <span class="font-02-m neutral-color-08">R$ 4999</span>
           </a>
         </li>
         <li>
           <a href="./bikes/nebula.html">
-            <img src="./img/bicicletas/nebula-home.jpg" alt="Bicicleta cinza" />
+            <img
+              src="./img/bicicletas/nebula-home.jpg"
+              width="920"
+              height="1040"
+              alt="Bicicleta cinza"
+            />
             <h3 class="font-01-xl neutral-color-11">Nebula Cosmic</h3>
             <span class="font-02-m neutral-color-08">R$ 3999</span>
           </a>
@@ -94,7 +121,12 @@
           <a class="link" href="./bikes.html"> escolha um modelo </a>
           <div class="technologies-advantages">
             <div class="advantages">
-              <img src="./img/icones/eletrica.svg" alt="" />
+              <img
+                src="./img/icones/eletrica.svg"
+                width="24"
+                height="24"
+                alt=""
+              />
               <h3 class="font-01-m neutral-color-00">Motor Elétrico</h3>
               <p class="font-02-s neutral-color-05">
                 Toda Bikcraft é equipada com um motor elétrico que possui
@@ -103,7 +135,12 @@
               </p>
             </div>
             <div class="advantages">
-              <img src="./img/icones/rastreador.svg" alt="" />
+              <img
+                src="./img/icones/rastreador.svg"
+                width="24"
+                height="24"
+                alt=""
+              />
               <h3 class="font-01-m neutral-color-00">Rastreador</h3>
               <p class="font-02-s neutral-color-05">
                 Sabemos o quão preciosa é a sua Bikcraft, por isso adicionamos
@@ -113,7 +150,12 @@
           </div>
         </div>
         <div class="technologies-image">
-          <img src="./img/fotos/tecnologia.jpg" alt="" />
+          <img
+            src="./img/fotos/tecnologia.jpg"
+            width="1200"
+            height="1920"
+            alt=""
+          />
         </div>
       </div>
     </article>
@@ -123,34 +165,79 @@
       </h2>
       <ul>
         <li>
-          <img src="./img/parceiros/caravan.svg" alt="caravan" />
+          <img
+            src="./img/parceiros/caravan.svg"
+            width="140"
+            height="38"
+            alt="caravan"
+          />
         </li>
         <li>
-          <img src="./img/parceiros/ranek.svg" alt="caravan" />
+          <img
+            src="./img/parceiros/ranek.svg"
+            width="149"
+            height="36"
+            alt="caravan"
+          />
         </li>
         <li>
-          <img src="./img/parceiros/handel.svg" alt="caravan" />
+          <img
+            src="./img/parceiros/handel.svg"
+            width="139"
+            height="50"
+            alt="caravan"
+          />
         </li>
         <li>
-          <img src="./img/parceiros/dogs.svg" alt="caravan" />
+          <img
+            src="./img/parceiros/dogs.svg"
+            width="152"
+            height="39"
+            alt="caravan"
+          />
         </li>
         <li>
-          <img src="./img/parceiros/lescone.svg" alt="caravan" />
+          <img
+            src="./img/parceiros/lescone.svg"
+            width="208"
+            height="41"
+            alt="caravan"
+          />
         </li>
         <li>
-          <img src="./img/parceiros/flexblog.svg" alt="caravan" />
+          <img
+            src="./img/parceiros/flexblog.svg"
+            width="165"
+            height="38"
+            alt="caravan"
+          />
         </li>
         <li>
-          <img src="./img/parceiros/wildbeast.svg" alt="caravan" />
+          <img
+            src="./img/parceiros/wildbeast.svg"
+            width="196"
+            height="34"
+            alt="caravan"
+          />
         </li>
         <li>
-          <img src="./img/parceiros/surfbot.svg" alt="caravan" />
+          <img
+            src="./img/parceiros/surfbot.svg"
+            width="200"
+            height="49"
+            alt="caravan"
+          />
         </li>
       </ul>
     </section>
     <section class="testimony" aria-label="testimony">
       <div class="testimony-image">
-        <img src="img/fotos/depoimento.jpg" alt="Mulher andando de bicicleta" />
+        <img
+          src="img/fotos/depoimento.jpg"
+          width="1560"
+          height="1360"
+          alt="Mulher andando de bicicleta"
+        />
       </div>
       <div class="testimony-content">
         <blockquote>
@@ -202,7 +289,7 @@
     </article>
     <footer class="footer-bg">
       <div class="footer container">
-        <img src="./img/bikcraft.svg" alt="Bikcraft" />
+        <img src="./img/bikcraft.svg" width="136" height="32" alt="Bikcraft" />
         <div class="footer-contact">
           <h3 class="font-02-l-b neutral-color-00">CONTATO</h3>
           <ul class="font-02-m neutral-color-05">
@@ -217,13 +304,28 @@
           </ul>
           <div class="footer-socials">
             <a href="">
-              <img src="./img/redes/instagram.svg" alt="instagram" />
+              <img
+                src="./img/redes/instagram.svg"
+                width="32"
+                height="32"
+                alt="instagram"
+              />
             </a>
             <a href="">
-              <img src="./img/redes/facebook.svg" alt="facebook" />
+              <img
+                src="./img/redes/facebook.svg"
+                width="32"
+                height="32"
+                alt="facebook"
+              />
             </a>
             <a href="">
-              <img src="./img/redes/youtube.svg" alt="youtube" />
+              <img
+                src="./img/redes/youtube.svg"
+                width="32"
+                height="32"
+                alt="youtube"
+              />
             </a>
           </div>
         </div>
